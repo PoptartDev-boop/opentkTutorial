@@ -32,6 +32,7 @@ namespace opentkTutorial
 
         protected override void OnUpdateFrame(FrameEventArgs e)
         {
+            //Keyboard input
             KeyboardState key = Keyboard.GetState();
 
             if (key.IsKeyDown(Key.Escape))
